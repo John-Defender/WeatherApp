@@ -40,14 +40,10 @@ import lombok.extern.slf4j.Slf4j;
  * <p>In this example {@link Weather} has a state that can be observed. The {@link Orcs} and {@link
  * Hobbits} register as observers and receive notifications when the {@link Weather} changes.
  */
-@Slf4j
+ 
 public class App {
 
-  /**
-   * Program entry point.
-   *
-   * @param args command line args
-   */
+ 
   public static void main(String[] args) {
 
     var weather = new Weather();
