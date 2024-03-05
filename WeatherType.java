@@ -24,9 +24,7 @@
  */
 package com.iluwatar.observer;
 
-/**
- * WeatherType enumeration.
- */
+ 
 public enum WeatherType {
 
   SUNNY("Sunny"),
