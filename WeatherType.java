@@ -32,7 +32,7 @@ public enum WeatherType {
   SUNNY("Sunny"),
   RAINY("Rainy"),
   WINDY("Windy"),
-  COLD("Cold");
+  COLD("Brrrrrrr");
 
   private final String description;
 
